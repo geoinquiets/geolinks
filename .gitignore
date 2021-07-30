@@ -106,8 +106,5 @@ typings/
 
 .parcel-cache
 .vscode
-app
-
-# Generated assets
 dist
-src/index.html
+tmp
