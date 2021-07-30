@@ -14,7 +14,7 @@
     "prepare": "yarn clean && yarn template && yarn css-optimize",
     "prebuild": "yarn prepare",
     "start": "parcel serve ./tmp/index.html",
-    "build": "parcel build ./tmp/index.html"
+    "build": "parcel build ./tmp/index.html --public-url https://geoinquiets.github.io/linksgeo"
   },
   "devDependencies": {
     "hbs-cli": "^1.4.0",
