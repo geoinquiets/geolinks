@@ -108,5 +108,7 @@ typings/
 .vscode
 app
 
-# Generated assets 
+# Generated assets
+dist
 src/index.html
+src/assets/css/styles.css
