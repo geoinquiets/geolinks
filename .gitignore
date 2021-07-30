@@ -111,4 +111,3 @@ app
 # Generated assets
 dist
 src/index.html
-src/assets/css/styles.css
