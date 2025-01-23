@@ -10,8 +10,8 @@
     "clean": "rimraf dist tmp",
     "template": "hbs --data data.json ./src/index.hbs --output tmp",
     "css-optimize": "purifycss ./node_modules/tachyons/css/tachyons.css tmp/index.html -i -o ./tmp/styles.css",
-    "prepare": "yarn clean && yarn template && yarn css-optimize",
-    "prebuild": "yarn prepare",
+    "prepare": "npm run clean && npm run template && npm run css-optimize",
+    "prebuild": "npm run prepare",
     "start": "parcel serve ./tmp/index.html",
     "build": "parcel build ./tmp/index.html --public-url https://geoinquiets.github.io/linksgeo"
   },
@@ -24,6 +24,10 @@
     "rimraf": "^6.0.1",
     "simple-icons": "^14.3.0",
     "svgo": "^3",
-    "tachyons": "^4.12.0"
+    "tachyons": "^4.12.0",
+    "glob-promise": "^6.0.3"
+  },
+  "resolutions": {
+    "glob-promise": "^6.0.3"
   }
 }
