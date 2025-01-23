@@ -14,37 +14,37 @@
   "links": [
     {
       "id": "twitter",
-      "icon": "twitter",
+      "icon-simpleicons": "x",
       "title": "Twitter",
-      "link": "https://twitter.com/LinksGeo"
+      "link": "https://x.com/LinksGeo"
     },
     {
       "id": "telegram",
-      "icon": "telegram",
+      "icon-simpleicons": "telegram",
       "title": "Telegram",
       "link": "https://t.me/geolinks"
     },
     {
       "id": "mastodon",
-      "icon": "mastodon",
+      "icon-simpleicons": "mastodon",
       "title": "Mastodon",
       "link": "https://mastodon.social/@Raf"
     },
     {
       "id": "linkedin",
-      "icon": "linkedin",
+      "icon-fontawesome": "brands/linkedin",
       "title": "Linkedin",
       "link": "https://www.linkedin.com/in/rafael-roset-910b947/detail/recent-activity/shares/"
     },
     {
       "id": "bluesky",
-      "icon": "bluesky",
+      "icon-simpleicons": "bluesky",
       "title": "Bluesky",
       "link": "https://bsky.app/profile/rafroset.bsky.social"
     },
     {
       "id": "mailchimp",
-      "icon": "mailchimp",
+      "icon-simpleicons": "mailchimp",
       "title": "Newsletter",
       "link": "https://us19.campaign-archive.com/home/?u=db4aef4e26dc192947f9cdf10&id=2fea50272c"
     }
