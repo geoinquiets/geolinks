@@ -37,6 +37,12 @@
       "link": "https://www.linkedin.com/in/rafael-roset-910b947/detail/recent-activity/shares/"
     },
     {
+      "id": "bluesky",
+      "icon": "bluesky",
+      "title": "Bluesky",
+      "link": "https://bsky.app/profile/rafroset.bsky.social"
+    },
+    {
       "id": "mailchimp",
       "icon": "mailchimp",
       "title": "Newsletter",
